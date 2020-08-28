@@ -1,0 +1,39 @@
+a {
+  color:black;
+  text-decoration: none;
+}
+.saw{
+  color:blue;
+}
+#active {
+  color:red;
+}
+h1{
+  font-size:150px;
+  text-align: center;
+  border-bottom:5px solid gray;
+  margin:0;
+  padding:20px;
+}
+ol{
+  border-right: 2px gray solid;
+  width:100px;
+  padding:20px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+div{
+  padding-left: 20px;
+}
+@media(max-width:800px) {
+  #grid{
+    display:block;
+  }
+  #grid ol{
+    border-right:none;
+  }
+  h1{
+      border-bottom:none;
+  }
